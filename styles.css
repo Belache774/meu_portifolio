@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "titles";
+    src: url(fonts/ADELIA.otf);
+}
+@font-face {
+    font-family: 'text-page';
+    src: url(fonts/Pulang.ttf);
+}
+@font-face {
+    font-family: "card-title";
+    src: url(fonts/Bodo\ Amat.ttf);
+}
+
+:root {
+    --amarelo-principal: #ffcb04;
+    --cinza-principal: #2c2c2b;
+    --cinza-claro: #a0a0a0;
+    --amarelo-claro: #ffc941;
+    --amarelo-clarinho: #ffe1a5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.profile-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.profile-pic {
+    width: 300px; /* Aumente o tamanho conforme necessário */
+    height: 400px; /* Ajuste a altura para deixar a imagem oval */
+    border-radius: 50% / 25%; /* Torna a imagem oval */
+    border: 5px solid #fff;
+    object-fit: cover; /* Garante que a imagem se ajuste ao tamanho do contêiner */
+    margin-bottom: 10px;
+}
+
+.profile-section h2 {
+    margin-top: 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+#about h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#about ul li {
+    font-size: 16px;
+    color: #333;
+    padding: 5px 0;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
